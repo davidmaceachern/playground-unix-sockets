@@ -1,0 +1,25 @@
+{
+  "name": "playground-unix-sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmaceachern/playground-unix-sockets.git"
+  },
+  "author": "David MacEachern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmaceachern/playground-unix-sockets/issues"
+  },
+  "homepage": "https://github.com/davidmaceachern/playground-unix-sockets#readme",
+  "dependencies": {
+    "neon-cli": "^0.5.1"
+  }
+}

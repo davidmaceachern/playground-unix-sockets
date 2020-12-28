@@ -22,7 +22,7 @@ fn main() -> std::io::Result<()> {
     buf.extend(message.as_bytes());
     //println!("{:?}", buf);
     buf.extend(&[0u8][..]);
-    //println!("buffercontent: {:?}", from_utf8(&buf[..]));
+    println!("buffercontent: {:?}", from_utf8(&buf[..]));
     // Send message
     match stream.write_all(&buf) {
         Err(_) => panic!("couldn't send message"),
